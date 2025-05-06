@@ -48,7 +48,7 @@ user_input = pd.DataFrame({
 
 user_input = scaler.transform(user_input)
 
-mapping = {0: "🎗️ Siswa kemungkinan akan Graduate", 1: "⚠️ Siswa kemungkinan akan Dropout"}
+mapping = {0: "Siswa kemungkinan akan Graduate 🎗️", 1: "Siswa kemungkinan akan Dropout ⚠️"}
 
 if st.button("Prediksi Status 🔍"):
     # Prediksi menggunakan model
