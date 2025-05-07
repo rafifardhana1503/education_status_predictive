@@ -10,7 +10,7 @@ scaler = joblib.load("scaler.pkl")
 
 # Judul aplikasi
 st.markdown("""
-    <h1 style='text-align: center;'>Jaya Jaya Maju Institut</h1>
+    <h1 style='text-align: center;'>Jaya Jaya Institut</h1>
     <h2 style='text-align: center;'> Prediksi Status Siswa </h2>
     <hr>
 """, unsafe_allow_html=True)
