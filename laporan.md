@@ -11,8 +11,10 @@ Sebagai institusi pendidikan, Jaya Jaya Institut ingin mengatasi permasalahan ti
 1. **Menganalisis Faktor-Faktor yang Menyebabkan Tingginya Dropout Rate**\
    Apa saja faktor yang memengaruhi keputusan mahasiswa untuk berhenti melanjutkan studi di Jaya Jaya Institut?
 2. **Memprediksi Potensi Risiko Mahasiswa Dropout**\
-   Bagaimana cara memprediksi mahaiswa yang berisiko Dropout secara efisien agar Jaya pihak Insitusi dapat melakukan intervensi secara tepat?
-3. **Membangun Visualisasi Data yang Informatif**\
+   Bagaimana cara memprediksi mahasiswa yang berisiko Dropout agar pihak Insitusi dapat melakukan intervensi secara tepat?
+3. **Memprediksi Kemungkinan Dropout Secara Efisien**\
+   Bagaimana solusi agar pihak Institusi dengan mudah memprediksi risiko Dropout secara efisien?
+5. **Membangun Visualisasi Data yang Informatif**\
    Bagaimana membuat Jaya Jaya Institusi dapat memantau faktor-faktor risiko Dropout melalui visualisasi yang mudah dipahami?
 
 ### Cakupan Proyek
@@ -22,6 +24,7 @@ Sebagai institusi pendidikan, Jaya Jaya Institut ingin mengatasi permasalahan ti
 2. **Membangun Model Machine Learning Prediksi**
    - Membangun model machine learning untuk memperkirakan kemungkinan seorang mahasiswa akan Dropout.
    - Model ini bertujuan membantu Jaya Jaya Institusi mengidentifikasi mahasiswa yang berisiko Dropout agar bisa segera mencari cara solutif.
+   - Melakukan deployment model machine learning ke Streamlit Cloud agar pihak Institusi dapat memprediksi risiko Dropout secara efisien
 3. **Membuat Business Dashboard**
    - Merancang dashboard interaktif yang menyajikan visualisasi dari faktor-faktor kunci penyebab Dropout.
    - Dashboard ini akan menjadi alat bantu bagi pihak Institusi dalam memantau kondisi status mahasiswa.
@@ -29,7 +32,7 @@ Sebagai institusi pendidikan, Jaya Jaya Institut ingin mengatasi permasalahan ti
    - Menyusun saran strategis berdasarkan temuan data dan hasil prediksi guna membantu Jaya Institusi dalam menurunkan angka Dropout di masa mendatang.
 
 ### Persiapan
-Institusi menyiapkan dataset yang memuat data terkait mahasiswa, mencakup aspek demografis, performa akademik, status finasial mahasiswa dan lainnya. Data ini berguna untuk menganalisis pola dan keterkaitannya dengan angka Dropout.
+Institusi menyiapkan dataset yang memuat data terkait mahasiswa, mencakup aspek demografis, performa akademik, status finasial mahasiswa dan lainnya. Data ini berguna untuk menganalisis pola dan keterkaitannya dengan angka Dropout.\
 Sumber data: https://github.com/dicodingacademy/dicoding_dataset/blob/main/students_performance/README.md
 
 Setup environment:
