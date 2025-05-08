@@ -11,12 +11,12 @@ scaler = joblib.load("scaler.pkl")
 # Judul aplikasi
 st.markdown("""
     <h1 style='text-align: center;'>Jaya Jaya Institut</h1>
-    <h2 style='text-align: center;'> Prediksi Status Siswa </h2>
+    <h2 style='text-align: center;'> Prediksi Status Mahasiswa </h2>
     <hr>
 """, unsafe_allow_html=True)
 
 # Input user
-st.subheader("📝 Masukkan Informasi Siswa")
+st.subheader("📝 Masukkan Informasi Mahasiswa")
 curricular_units_2nd_sem_approved = st.number_input('Curricular Units 2nd Semester Approved', min_value=0, max_value=25, value=2)
 curricular_units_2nd_sem_grade = st.number_input('Curricular Units 2nd Semester Grade', min_value=0, max_value=20, value=4)
 curricular_units_1st_sem_approved = st.number_input('Curricular Units 1st Semester Approved', min_value=0, max_value=30, value=4)
@@ -48,7 +48,7 @@ user_input = pd.DataFrame({
 
 user_input = scaler.transform(user_input)
 
-mapping = {0: "Siswa kemungkinan akan Graduate 🎗️", 1: "Siswa kemungkinan akan Dropout ⚠️"}
+mapping = {0: "Mahasiswa kemungkinan akan Graduate 🎗️", 1: "Mahasiswa kemungkinan akan Dropout ⚠️"}
 
 if st.button("Prediksi Status 🔍"):
     # Prediksi menggunakan model
