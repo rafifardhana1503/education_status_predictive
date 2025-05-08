@@ -49,15 +49,19 @@ Setup environment:
    ```
    Python 3.11.12
    ```
-   Penggunaan Google Colab sudah menyediakan versi Python terbaru secara default. Sebagian besar library populer sudah kompatibel.
-4. Setup Looker Studio
+   Penggunaan Google Colab sudah menyediakan versi Python terbaru secara default. Sebagian besar library populer sudah kompatibel. Meskipun sudah kompatibel tetap terapkan install requirements.
+4. Install semua dependency dari file `requirements.txt`:
+   ```
+   !pip install -r requirements.txt
+   ```
+5. Setup Looker Studio
    - Membuat **Blank Report**
    - Koneksikan data dengan Upload File CSV yaitu `data_clean.csv`
    - Kemudian klik **Add Data to Report**
    - Sesuaikan layout menggunakan **Responsive Layout**
    - Dataset dan canvas dashboard telah tersedia dan dapat digunakan untuk visualisasi data
 
-5. Setelah seluruh proses setup selesai, Anda bisa menjalankan skrip utama atau mulai melakukan proses prediksi.
+6. Setelah seluruh proses setup selesai, Anda bisa menjalankan skrip utama atau mulai melakukan proses prediksi.
    - Untuk menjalankan analisis utama terdapat pada
      ```
      status_predictive_notebook.ipynb
