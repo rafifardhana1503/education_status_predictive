@@ -50,7 +50,7 @@ Setup environment:
    Python 3.11.12
    ```
    Penggunaan Google Colab sudah menyediakan versi Python terbaru secara default. Sebagian besar library populer sudah kompatibel. Meskipun sudah kompatibel tetap terapkan install requirements.
-4. Install semua dependency dari file `requirements.txt`:
+4. Install semua dependency dari file `requirements.txt` pada kolom code cell Colab notebook:
    ```
    !pip install -r requirements.txt
    ```
